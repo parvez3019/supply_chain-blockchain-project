@@ -1,0 +1,64 @@
+-------------------------------------------------------------------------
+RINKEBY NETWORK Deployment stats - 
+
+sudo truffle migrate --network rinkeby
+
+Using network 'rinkeby'.
+
+Running migration: 1_initial_migration.js
+  Deploying Migrations...
+  ... 0x1509e2999439ae76a54ddbc74e59f83bda31d3320f6e30284b6862de75eea4ee
+  Migrations: 0x944559e9a2250a77dd33653cbaaf59675c9ee148
+Saving successful migration to network...
+  ... 0xe5d7fd787e3c806f91874bfb480e0fc13481bcb92396b6fd922ed496034ad1e7
+Saving artifacts...
+Running migration: 2_deploy_contracts.js
+  Deploying FarmerRole...
+  ... 0xac7cd38679ba5908e7557ca5e9f514ac4fb983b92649c6f121bdd344beaebc71
+  FarmerRole: 0xd8f677ef427403e0a3d56e4e1dfe6094c9e79316
+  Deploying DistributorRole...
+  ... 0xfd0824f292f7b060ae86aa06b80f140721e90a99199c72d3213b936606df0265
+  DistributorRole: 0x0702256f78757ada840f79258b0ceac5c4286694
+  Deploying RetailerRole...
+  ... 0xb4c69ceff33ca796d029dfe5929cedbad9e071814c15880c3aa56e416a80d67b
+  RetailerRole: 0xb1e74614358d4af05486f1f4f7d30d69be3fb13b
+  Deploying ConsumerRole...
+  ... 0xfd832b2e4733c318bed160d6b898aeaa68ee08c22ac1318216a2c2609780a573
+  ConsumerRole: 0xd090f3d40ed177f2bdafb1d6eb31fb854fa2306c
+  Deploying SupplyChain...
+  ... 0x343e6d57f0b406110d974e8a6ff8017315e92d438b731303c2890ff687ac0ae7
+  SupplyChain: 0x9860bba70768e4b265074062a2c33cb4c89e0fa7
+Saving successful migration to network...
+  ... 0xe7d878969832c2abe1a9c82a8bbae426eea58280fdc5a070652c88fde50790d7
+Saving artifacts...
+
+
+
+Contract URLs From etherscan
+
+FarmerRole - 
+https://rinkeby.etherscan.io/tx/0xac7cd38679ba5908e7557ca5e9f514ac4fb983b92649c6f121bdd344beaebc71
+
+https://rinkeby.etherscan.io/address/0xd8f677ef427403e0a3d56e4e1dfe6094c9e79316
+
+
+DistributorRole -
+https://rinkeby.etherscan.io/tx/0xfd0824f292f7b060ae86aa06b80f140721e90a99199c72d3213b936606df0265
+
+https://rinkeby.etherscan.io/address/0x0702256f78757ada840f79258b0ceac5c4286694
+
+
+ConsumerRole -
+https://rinkeby.etherscan.io/tx/0xfd832b2e4733c318bed160d6b898aeaa68ee08c22ac1318216a2c2609780a573
+https://rinkeby.etherscan.io/address/0xd090f3d40ed177f2bdafb1d6eb31fb854fa2306c
+
+
+SupplyChain -
+https://rinkeby.etherscan.io/tx/0xe7d878969832c2abe1a9c82a8bbae426eea58280fdc5a070652c88fde50790d7
+
+https://rinkeby.etherscan.io/address/0x944559e9a2250a77dd33653cbaaf59675c9ee148
+
+------------------------------------------------------------------------
+
+
+truffle version - Truffle v4.1.14
